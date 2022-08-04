@@ -1,11 +1,3 @@
-document.querySelector('#userQuestion').addEventListener('click', respond)
-
-function respond(){
-
-}
-
-let userName = document.querySelector('#userName').value
-
 // display users name or not
 userName ? console.log(`Hello ${userName}!`) : console.log('Hello!');
 
