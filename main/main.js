@@ -1,17 +1,17 @@
 // display users name or not
-userName ? console.log(`Hello ${userName}!`) : console.log('Hello!');
+userName ? console.log(`Hello ${userName}!`) : console.log('Hello!')
 
 // setting up the question
-let userQuestion = '';
+let userQuestion = ''
 
 // log the question to user
-console.log(`So, ${userName}, what is your ${userQuestion}?`);
+console.log(`So, ${userName}, what is your ${userQuestion}?`)
 
 // generate random number to pick answer
-let randomNum = Math.floor(Math.random() * 8);
+let randomNum = Math.floor(Math.random() * 8)
 
 // the 8 ball container
-let eightBall = '';
+let eightBall = ''
 
 //the magic
 if(randomNum === 0){
