@@ -30,7 +30,7 @@ if(randomNum === 0){
   eightBall = 'Outlook not so good';
 }else if(randomNum === 7){
   eightBall = 'Signs point to yes';
-}
+};
 
 //log the magic
 console.log(eightBall);
