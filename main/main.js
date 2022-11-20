@@ -1,11 +1,11 @@
-// display users name or not
+let userName = '';
 userName ? console.log(`Hello ${userName}!`) : console.log('Hello!');
 
 // setting up the question
 let userQuestion = '';
 
 // log the question to user
-console.log(`So, ${userName}, what is your ${userQuestion}?`);
+console.log(`User has asked: ${userQuestion}?`);
 
 // generate random number to pick answer
 let randomNum = Math.floor(Math.random() * 8);
